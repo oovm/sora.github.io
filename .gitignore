@@ -1,7 +1,15 @@
 .DS_Store
 Thumbs.db
-db.json
+
 *.log
+.deploy*/
+
+
+
+# hexo 缓存文件
 node_modules/
 public/
-.deploy*/
+db.json
+
+
+.idea/
