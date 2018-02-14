@@ -13,3 +13,10 @@ db.json
 
 
 .idea/
+
+
+#
+*.MP3
+*.MP4
+*.MP5
+*.flv
