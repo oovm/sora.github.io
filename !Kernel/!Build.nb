@@ -1,0 +1,122 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3675,        114]
+NotebookOptionsPosition[      2661,         89]
+NotebookOutlinePosition[      3019,        105]
+CellTagsIndexPosition[      2976,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData["Quit"], "Input",
+ CellChangeTimes->{{3.7244945426905375`*^9, 
+  3.7244945432869473`*^9}},ExpressionUUID->"362bb83d-056e-49c2-8a28-\
+05bee496ea45"],
+
+Cell[BoxData[
+ RowBox[{"LGet", "[", "\"\<Soramimi\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.724494223352492*^9, 3.7244942981010017`*^9}, {
+  3.724494330045107*^9, 
+  3.724494335089896*^9}},ExpressionUUID->"5a5dd6af-a7ce-4b51-9c80-\
+8f9943e8d122"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ASS2LRC", "/@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{
+   "\"\<*.ass\>\"", ",", 
+    "\"\<D:\\\\Workspace\\\\Soramimi\\\\Ass_Raw\\\\Noragami\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.7244943994398713`*^9, 3.724494406935505*^9}, {
+  3.724494450717658*^9, 3.724494453717538*^9}, {3.724494550695755*^9, 
+  3.724494577221376*^9}},
+ NumberMarks->False,ExpressionUUID->"c11b990c-ea04-4828-b5f6-322d79d7fadf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"\:8f6c\:6362\:6210\:529f: \"\>",
+   "EchoLabel"], " ", "\<\"ED1 PV.ass\"\>"}]], "Echo",
+ CellChangeTimes->{
+  3.724495023779867*^9},ExpressionUUID->"24a5b005-4588-413d-80b7-\
+ff6b5eb74ab5"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"\:8f6c\:6362\:6210\:529f: \"\>",
+   "EchoLabel"], " ", "\<\"ED2.ass\"\>"}]], "Echo",
+ CellChangeTimes->{
+  3.7244950238424077`*^9},ExpressionUUID->"1cf0cb8d-eb85-4370-b902-\
+7ed6c4912c01"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"\:8f6c\:6362\:6210\:529f: \"\>",
+   "EchoLabel"], " ", "\<\"OP1.ass\"\>"}]], "Echo",
+ CellChangeTimes->{
+  3.7244950239010057`*^9},ExpressionUUID->"dd5487d4-e95a-44f9-bd59-\
+d39659307d88"],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox["\<\"\:8f6c\:6362\:6210\:529f: \"\>",
+   "EchoLabel"], " ", "\<\"OP2.ass\"\>"}]], "Echo",
+ CellChangeTimes->{
+  3.724495023949041*^9},ExpressionUUID->"0c292d5e-912c-4f12-a210-\
+21aced3427fd"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Null", ",", "Null", ",", "Null", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7244945571248436`*^9, 3.7244946032402177`*^9}, 
+   3.724495023965064*^9},ExpressionUUID->"09466e0c-9c5e-42d0-93ed-\
+def8891b48a0"]
+}, Open  ]]
+},
+WindowSize->{775, 873},
+WindowMargins->{{208, Automatic}, {-34, Automatic}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (2017\:5e7410\:67082\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 160, 3, 27, "Input",ExpressionUUID->"362bb83d-056e-49c2-8a28-05bee496ea45"],
+Cell[721, 25, 249, 5, 27, "Input",ExpressionUUID->"5a5dd6af-a7ce-4b51-9c80-8f9943e8d122"],
+Cell[CellGroupData[{
+Cell[995, 34, 440, 10, 27, "Input",ExpressionUUID->"c11b990c-ea04-4828-b5f6-322d79d7fadf"],
+Cell[CellGroupData[{
+Cell[1460, 48, 227, 6, 22, "Echo",ExpressionUUID->"24a5b005-4588-413d-80b7-ff6b5eb74ab5"],
+Cell[1690, 56, 226, 6, 22, "Echo",ExpressionUUID->"1cf0cb8d-eb85-4370-b902-7ed6c4912c01"],
+Cell[1919, 64, 226, 6, 22, "Echo",ExpressionUUID->"dd5487d4-e95a-44f9-bd59-d39659307d88"],
+Cell[2148, 72, 224, 6, 22, "Echo",ExpressionUUID->"0c292d5e-912c-4f12-a210-21aced3427fd"]
+}, Open  ]],
+Cell[2387, 81, 258, 5, 31, "Output",ExpressionUUID->"09466e0c-9c5e-42d0-93ed-def8891b48a0"]
+}, Open  ]]
+}
+]
+*)
+
