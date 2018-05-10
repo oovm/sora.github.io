@@ -1,6 +1,6 @@
 
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/GalAster/soramimi.github.io.svg)](https://greenkeeper.io/)
+
 
 主题通过submodule嵌入, 无需修改主题.
 
