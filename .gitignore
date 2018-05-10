@@ -11,9 +11,9 @@ node_modules/
 public/
 db.json
 
-
+## Idea工程
 .idea/
-
+*.jar
 
 # 富文本
 *.MP3
@@ -23,5 +23,3 @@ db.json
 *.tcax.ass
 
 # 歌词文件
-!Kernel/*.lrc
-!Resources/*.lrc

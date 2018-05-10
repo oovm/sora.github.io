@@ -1,3 +1,6 @@
 [submodule "themes/even"]
 	path = themes/even
-	url = https://github.com/ahonn/hexo-theme-even
+	url = git@github.com/ahonn/hexo-theme-even.git
+[submodule "resources"]
+	path = resources
+	url = git@github.com:GalAster/Soramimi.git
