@@ -15,8 +15,13 @@ db.json
 .idea/
 
 
-#
+# 富文本
 *.MP3
 *.MP4
 *.MP5
 *.flv
+*.tcax.ass
+
+# 歌词文件
+!Kernel/*.lrc
+!Resources/*.lrc
