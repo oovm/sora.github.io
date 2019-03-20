@@ -1,5 +1,6 @@
 # Garbage
-.DS_Store
+..bfg-report
+DS_Store
 Thumbs.db
 *.log
 .deploy
