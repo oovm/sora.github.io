@@ -1,25 +1,21 @@
+# Garbage
 .DS_Store
 Thumbs.db
-
 *.log
-.deploy*/
+.deploy
 
-
-
-# hexo 缓存文件
+# Node
 node_modules/
-public/
-db.json
 
-## Idea工程
-.idea/
+# Java
+.idea
 *.jar
 
-# 富文本
+# Media
 *.MP3
 *.MP4
 *.MP5
 *.flv
 *.tcax.ass
 
-# 歌词文件
+# Lyrics
