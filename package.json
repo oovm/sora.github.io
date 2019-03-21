@@ -1,9 +1,14 @@
 {
-    "name": "hexo-site",
+    "name": "sola.github.io",
     "version": "0.0.0",
     "private": true,
+    "scripts": {
+        "dev": "vuepress dev website",
+        "build": "vuepress build website --dest ./dist --cache",
+        "update": "yarn upgrade --latest"
+    },
     "dependencies": {
-        "vuepress": "^1.0.0-alpha.44",
-        "vuepress-theme-meteorlxy": "^1.0.0-alpha.28"
+        "vuepress": "^1.0.0-alpha.41",
+        "vuepress-theme-meteorlxy": "1.0.0-alpha.29"
     }
 }
