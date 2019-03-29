@@ -5,10 +5,10 @@
     "scripts": {
         "dev": "vuepress dev website",
         "build": "vuepress build website --dest ./dist --cache",
-        "update": "yarn upgrade --latest"
+        "update": "yarn upgrade --next"
     },
     "dependencies": {
-        "vuepress": "^1.0.0-alpha.41",
-        "vuepress-theme-meteorlxy": "1.0.0-alpha.29"
+        "vuepress": "^1.0.0-alpha.46",
+        "vuepress-theme-meteorlxy": "^1.0.0-alpha.34"
     }
 }
