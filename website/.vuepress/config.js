@@ -1,3 +1,4 @@
+banners = require('./banner.js')
 module.exports = {
     title: 'SOLA',
     description: 'New Era for Literary Soramimi',
@@ -17,17 +18,14 @@ module.exports = {
             showTitle: false,
             background: {
                 useGeo: false,
-                url: [
-                    '/assets/img/background/63984c385736ae1bc0c406d5f3f0d2676b676456.jpg',
-                    '/assets/img/background/a5d4e198e21be0b2fc2ac5a1ee03b47c4348f0e0.png'
-                ],
+                url: banners
             },
         },
         nav: [
             { text: 'Arts', link: '/', exact: true },
             { text: 'Tags', link: '/posts/', exact: false },
             { text: 'About', link: '/projects/', exact: false },
-            { text: 'Github', link: '/projects/', exact: false }
+            { text: 'Github', link: 'https://github.com/GalAster/Soramimi'}
         ],
         comments: false
     },
