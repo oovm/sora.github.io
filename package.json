@@ -9,6 +9,6 @@
     },
     "dependencies": {
         "vuepress": "1.2.0",
-        "vuepress-theme-meteorlxy": "1.7.1"
+        "vuepress-theme-meteorlxy": "1.8.0"
     }
 }
