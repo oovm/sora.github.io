@@ -1,0 +1,10 @@
+[build]
+publish = "public"
+command = "zola build"
+
+[build.environment]
+ZOLA_VERSION = "0.10.0"
+DEPLOY_PRIME_URL = "https://soramimi.netlify.com/"
+
+[context.deploy-preview]
+command = "zola build --base-url $DEPLOY_PRIME_URL"

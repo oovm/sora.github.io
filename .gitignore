@@ -5,13 +5,15 @@ Thumbs.db
 *.log
 .deploy
 
-# Node
+# Build
 node_modules/
 dist/
+public/
 
 # Java
 .idea
 *.jar
+
 
 # Media
 *.MP3
