@@ -918,17 +918,17 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.0.0":
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-1.2.0.tgz#f6bb2f57317e94a6b0b6854719f3088481f2c0dd"
-  integrity sha1-9rsvVzF+lKawtoVHGfMIhIHywN0=
+"@vuepress/plugin-back-to-top@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.3.0.tgz#0193858287d6c18b30e31c4730ecaecef7c8d7b5"
+  integrity sha512-YuJEYaxPRAJScoqiq4uEcqdVt+vBOpdTDhepxtmN0vDRatvOqwJctwi5xqHcII2ziB7ddhOsibk8fhYwc/42ww==
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-google-analytics@^1.0.0":
-  version "1.2.0"
-  resolved "https://registry.npm.taobao.org/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-1.2.0.tgz#54555fd14f01a032c5acff04ecbbe0911577d7d0"
-  integrity sha1-VFVf0U8BoDLFrP8E7LvgkRV319A=
+"@vuepress/plugin-google-analytics@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.3.0.tgz#1801f49f6cd8f49a2b9f8a330439f688155c0ea0"
+  integrity sha512-yJelEwDK3iR/XgFcG5C+UC7eMyFewXTvrCRoWAteqn6v4xdFcnSz/XFSTUrAOPLADulxzt5rA+tydM1sW5D3Zw==
 
 "@vuepress/plugin-last-updated@^1.2.0":
   version "1.2.0"
@@ -956,10 +956,25 @@
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-search/download/@vuepress/plugin-search-1.2.0.tgz#0b27c467b7fd42bd4d9e32de0fe2fb81a24bd311"
   integrity sha1-CyfEZ7f9Qr1NnjLeD+L7gaJL0xE=
 
-"@vuepress/shared-utils@^1.0.0", "@vuepress/shared-utils@^1.0.2", "@vuepress/shared-utils@^1.2.0":
+"@vuepress/shared-utils@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/@vuepress/shared-utils/download/@vuepress/shared-utils-1.2.0.tgz#8d9ab40c24f75f027ef32c2ad0169f0f08e949fa"
   integrity sha1-jZq0DCT3XwJ+8ywq0BafDwjpSfo=
+  dependencies:
+    chalk "^2.3.2"
+    diacritics "^1.3.0"
+    escape-html "^1.0.3"
+    fs-extra "^7.0.1"
+    globby "^9.2.0"
+    gray-matter "^4.0.1"
+    hash-sum "^1.0.2"
+    semver "^6.0.0"
+    upath "^1.1.0"
+
+"@vuepress/shared-utils@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.3.0.tgz#2c9afccaed0bcdf4ceb1c02becdeac61da6dbec2"
+  integrity sha512-n1AFgt8SiMDdc5aIj5yOqS3E6+dAZ+9tPw6qf1mBiqvdZzwaUtlydvXqVkskrwUo18znLrUr55VYwubMOaxFnQ==
   dependencies:
     chalk "^2.3.2"
     diacritics "^1.3.0"
@@ -6299,7 +6314,7 @@ slash@^2.0.0:
   resolved "https://registry.npm.taobao.org/slash/download/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
 
-smoothscroll-polyfill@^0.4.3:
+smoothscroll-polyfill@^0.4.3, smoothscroll-polyfill@^0.4.4:
   version "0.4.4"
   resolved "https://registry.npm.taobao.org/smoothscroll-polyfill/download/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
   integrity sha1-OiWRMdxpMObKgAA+HLA7YDtpq/g=
@@ -7199,13 +7214,6 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-container@^1.1.1:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-container/download/vuepress-plugin-container-1.1.2.tgz#3bcf10d335a657c7eb9938b1499d6a7c37625456"
-  integrity sha1-O88Q0zWmV8frmTixSZ1qfDdiVFY=
-  dependencies:
-    markdown-it-container "^2.0.0"
-
 vuepress-plugin-container@^2.0.2:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-container/download/vuepress-plugin-container-2.1.0.tgz#eb2ba3e01cdac419bd678d40e05c934caffe6db0"
@@ -7213,32 +7221,39 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-dehydrate@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-dehydrate/download/vuepress-plugin-dehydrate-1.0.3.tgz#75dafa70272e3bdd33401e732c98bc649c501b9c"
-  integrity sha1-ddr6cCcuO90zQB5zLJi8ZJxQG5w=
+vuepress-plugin-container@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.2.tgz#688c1e5a9709a1b8658605bcaee580b3abb19d16"
+  integrity sha512-Df5KoIDMYiFg45GTfFw2hIiLGSsjhms4f3ppl2UIBf5nWMxi2lfifcoo8MooMSfxboxRZjoDccqQfu0fypaKrQ==
   dependencies:
-    "@vuepress/shared-utils" "^1.0.2"
+    markdown-it-container "^2.0.0"
 
-vuepress-plugin-nprogress@^1.1.0:
-  version "1.1.4"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-nprogress/download/vuepress-plugin-nprogress-1.1.4.tgz#63350d8521ff6c3f27bcc03ec6a7d496f3b70c07"
-  integrity sha1-YzUNhSH/bD8nvMA+xqfUlvO3DAc=
+vuepress-plugin-dehydrate@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-dehydrate/-/vuepress-plugin-dehydrate-1.1.3.tgz#191460ed3776605b945ae74d26394338c12d5cd7"
+  integrity sha512-alSW3BXgwmm1U9F6UmeFvP58t0xluNkzxQ9OfsWTq+UG8UyUsdqV6ltaii6wWA0cmlfqOswdQXwgcifJ6jAIfw==
+  dependencies:
+    "@vuepress/shared-utils" "^1.2.0"
+
+vuepress-plugin-nprogress@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-nprogress/-/vuepress-plugin-nprogress-1.1.6.tgz#cfef778d97323b7c89de6c1c9cc17e9085fef599"
+  integrity sha512-KJ9jEtuzyOgfdU5w1iQwHMVUqLPvKA4Yr32zbEY1g1wpEveABaLyr1P3We5smPrPo2dd5XLyormqhV9or2GUkw==
   dependencies:
     nprogress "^0.2.0"
 
-vuepress-plugin-redirect@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-redirect/download/vuepress-plugin-redirect-1.1.2.tgz#fcadb38493f2b4c37c965eea6135f5431ab25b6a"
-  integrity sha1-/K2zhJPytMN8ll7qYTX1QxqyW2o=
+vuepress-plugin-redirect@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-redirect/-/vuepress-plugin-redirect-1.2.3.tgz#f0454c7c609f16fa63bb268a0b8e561ee42b2381"
+  integrity sha512-XIG2Ijty/2WFf5smJylFHArlOmFxZyJI6hrrdIHsDIwGDSJFSl0Q97c9ZgnvkeegsxEHbxjtKOBBI/MMf8qtbg==
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
-    vuepress-plugin-dehydrate "^1.0.0"
+    vuepress-plugin-dehydrate "1.1.3"
 
-vuepress-plugin-serve@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-serve/download/vuepress-plugin-serve-1.1.0.tgz#ff611d6e09ee8f9a76af947b136332433e8966ef"
-  integrity sha1-/2Edbgnuj5p2r5R7E2MyQz6JZu8=
+vuepress-plugin-serve@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-serve/-/vuepress-plugin-serve-2.0.0.tgz#6c44a3b121937634e710bbec18aa6c954de286fe"
+  integrity sha512-zM4UeVbc2Knd7wenMBlkR7XF5JoBX3hjq+fKidBNlOZI3O+O2x4PmvYKl38B2so8trbeszBA5sjzBZW9ULGtCw==
   dependencies:
     chalk "^2.4.2"
     express "^4.16.4"
@@ -7251,42 +7266,49 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-table-of-contents@^1.0.2:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-table-of-contents/download/vuepress-plugin-table-of-contents-1.1.2.tgz#da6ceb042e0a131586a07edf4e5fbab6a6d988f7"
-  integrity sha1-2mzrBC4KExWGoH7fTl+6tqbZiPc=
+vuepress-plugin-smooth-scroll@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.9.tgz#6c5d01db60def3d7b976b53404e56b97da9e8f39"
+  integrity sha512-UXX+HLZO1NKVwyiOJlj0smh8F9dKnwybjEi7w/Mj9EYLhKrNYr5uXs+N+OTt8VwKCn3f0vZ1XAwFIjsPlD7GJA==
+  dependencies:
+    smoothscroll-polyfill "^0.4.4"
 
-vuepress-plugin-zooming@^1.1.2:
+vuepress-plugin-table-of-contents@^1.1.5:
   version "1.1.5"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-zooming/download/vuepress-plugin-zooming-1.1.5.tgz#5e4b23b1d40346783ec102a834cf2b33d5776acf"
-  integrity sha1-XksjsdQDRng+wQKoNM8rM9V3as8=
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-table-of-contents/-/vuepress-plugin-table-of-contents-1.1.5.tgz#6c3540c24a84e0eeaf67cbe734c118f0194454d6"
+  integrity sha512-OiUqmMq/+oB3Q9IJ3y+mzurSBmQZ6VvW5j9EiIDeo2FBo4/OJ2zhPeCw0gpUcln07qJOKBPLVYzfSt3J30g9dg==
+
+vuepress-plugin-zooming@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-zooming/-/vuepress-plugin-zooming-1.1.7.tgz#837440f607f8a1782376ac8d20918842ea373f30"
+  integrity sha512-4n65OpjEJh9epJYygaHpni+YDLDZlEmHPVzTEkXz4JilBarWG4xF8g8vv4k/RnSf9W3TvrI/61KCQf2JNKI1HA==
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-meteorlxy@1.7.1:
-  version "1.7.1"
-  resolved "https://registry.npm.taobao.org/vuepress-theme-meteorlxy/download/vuepress-theme-meteorlxy-1.7.1.tgz#4cff1b8da59dadd2bf56424f661f71870e27a867"
-  integrity sha1-TP8bjaWdrdK/VkJPZh9xhw4nqGc=
+vuepress-theme-meteorlxy@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-meteorlxy/-/vuepress-theme-meteorlxy-1.8.0.tgz#8b9495081c11d6396ec675c3d9d99fa7a2f489fc"
+  integrity sha512-UZVvGojPabCEDYSP1x2FGR+rkl1cnXy2EMlCeZ6wN/OgAJLECnJMwvC1+Q6eGVZXatIpuPwxTvOVq1pgLe2L9g==
   dependencies:
     "@vssue/api-github-v3" "^1.0.0"
     "@vssue/vuepress-plugin-vssue" "^1.0.0"
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     "@vue/babel-preset-jsx" "^1.0.0"
-    "@vuepress/plugin-back-to-top" "^1.0.0"
-    "@vuepress/plugin-google-analytics" "^1.0.0"
-    "@vuepress/shared-utils" "^1.0.0"
+    "@vuepress/plugin-back-to-top" "^1.3.0"
+    "@vuepress/plugin-google-analytics" "^1.3.0"
+    "@vuepress/shared-utils" "^1.3.0"
     date-fns "^1.30.1"
     geopattern "^1.2.3"
     lodash.debounce "^4.0.8"
     lodash.throttle "^4.1.1"
     markdown-it-center-text "^1.0.4"
-    vuepress-plugin-container "^1.1.1"
-    vuepress-plugin-nprogress "^1.1.0"
-    vuepress-plugin-redirect "^1.1.2"
-    vuepress-plugin-serve "^1.1.0"
-    vuepress-plugin-smooth-scroll "^0.0.3"
-    vuepress-plugin-table-of-contents "^1.0.2"
-    vuepress-plugin-zooming "^1.1.2"
+    vuepress-plugin-container "^2.1.2"
+    vuepress-plugin-nprogress "^1.1.6"
+    vuepress-plugin-redirect "^1.2.3"
+    vuepress-plugin-serve "^2.0.0"
+    vuepress-plugin-smooth-scroll "^0.0.9"
+    vuepress-plugin-table-of-contents "^1.1.5"
+    vuepress-plugin-zooming "^1.1.7"
 
 vuepress@1.2.0:
   version "1.2.0"
