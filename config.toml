@@ -1,4 +1,5 @@
 base_url = "https://soramimi.netlify.app/"
+title = "空耳创世纪"
 theme = "mikoto"
 description = ""
 compile_sass = true

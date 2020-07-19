@@ -6,21 +6,6 @@ categories = ["斩赤红之瞳"]
 tags = ["OP", "真山りか"]
 +++
 
-<div id="player"></div>
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player'),
-    userId: 1001,
-    vcode: '72ae97c957e09516',
-    autoPlay: false
-});
-</script>
-
-<!-- more -->
-
----
-
 <meting-js server="netease"	type="song"	id="29758107"/>
 
 ```lrc
@@ -46,3 +31,18 @@ var player = new DogePlayer({
 [01:10.26]亦能虏 邀你辟地刑天
 [01:15.56]眺望梦 岸踏空 宿命安可等
 ```
+
+<!-- more -->
+
+---
+
+<div id="player"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player'),
+    userId: 1001,
+    vcode: '72ae97c957e09516',
+    autoPlay: false
+});
+</script>

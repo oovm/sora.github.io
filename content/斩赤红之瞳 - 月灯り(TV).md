@@ -6,20 +6,6 @@ categories = ["斩赤红之瞳"]
 tags = ["ED", "雨宮天"]
 +++
 
-<div id="player"></div>
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player'),
-    userId: 1001,
-    vcode: '8ead555f9394648f',
-    autoPlay: false
-});
-</script>
-
-<!-- more -->
-
----
 
 <meting-js server="netease"	type="song"	id="29744626"/>
 
@@ -44,3 +30,18 @@ var player = new DogePlayer({
 [01:20.35]哀歌刻字字 可代替
 [01:23.26]等谁可以 与你一起悲哭
 ```
+
+<!-- more -->
+
+---
+
+<div id="player"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player'),
+    userId: 1001,
+    vcode: '8ead555f9394648f',
+    autoPlay: false
+});
+</script>

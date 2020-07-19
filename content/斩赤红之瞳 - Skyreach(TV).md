@@ -6,20 +6,6 @@ categories = ["斩赤红之瞳"]
 tags = ["OP", "雨宮天"]
 +++
 
-<div id="player"></div>
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player'),
-    userId: 1001,
-    vcode: '2dbdf50e2c56c98f',
-    autoPlay: false
-});
-</script>
-
-<!-- more -->
-
----
 
 <meting-js server="netease"	type="song"	id="28936241"/>
 
@@ -42,3 +28,18 @@ var player = new DogePlayer({
 [01:06.34]有缘千里 和你一起战斗 到达路尽头
 [01:10.64]意志的大道里 支配死亡 夺取明天
 ```
+
+<!-- more -->
+
+---
+
+<div id="player"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player'),
+    userId: 1001,
+    vcode: '2dbdf50e2c56c98f',
+    autoPlay: false
+});
+</script>
