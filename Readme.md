@@ -6,7 +6,5 @@
 
 ```bash
 git clone https://github.com/GalAster/sora.github.io.git --recursive --depth=1
-git clone https://github.com/GalAster/sora.github.io.git sora.github.io/dist --branch=master --depth=1
-cd sora.github.io.git && yarn install
-yarn dev
+git submodule foreach git pull
 ```
