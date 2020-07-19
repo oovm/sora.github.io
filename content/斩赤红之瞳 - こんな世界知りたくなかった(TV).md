@@ -1,9 +1,9 @@
 +++
-title = "Liar Mask(TV)"
+title = "こんな世界知りたくなかった(TV)"
 date = 2018-03-31
 [taxonomies]
 categories = ["斩赤红之瞳"]
-tags = ["OP", "真山りか"]
+tags = ["ED", "沢井美空"]
 +++
 
 <div id="player"></div>
