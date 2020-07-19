@@ -8,3 +8,5 @@
 git clone https://github.com/GalAster/sora.github.io.git --recursive --depth=1
 git submodule foreach git pull
 ```
+
+有任何问题请开贴: https://github.com/GalAster/Soramimi/issues
