@@ -1,5 +1,4 @@
-# The URL the site will be built for
-base_url = "https://github.com/GalAster/sora.github.io"
+base_url = "https://soramimi.netlify.app/"
 theme = "mikoto"
 description = ""
 compile_sass = true
@@ -15,7 +14,7 @@ taxonomies = [
 [extra]
 author = "Aster"
 favicon = "avatar.jpg"
-github_link = "https://github.com/GalAster/sora.github.io"
+github_link = "https://github.com/GalAster/Soramimi"
 
 aplayer_enable = true
 
