@@ -1,9 +1,9 @@
 +++
 title = "Liar Mask(TV)"
-date = 2018-04-27
+date = 2018-03-31
 [taxonomies]
 categories = ["斩赤红之瞳"]
-tags = ["OP", "真山りか"]
+tags = ["OP", "雨宮天"]
 +++
 
 <div id="player"></div>
@@ -21,7 +21,7 @@ var player = new DogePlayer({
 
 ---
 
-<meting-js server="netease"	type="song"	id="29758107"/>
+<meting-js server="netease"	type="song"	id="28936241"/>
 
 ```lrc
 [00:12.74]孤苦落影 开拓新征程 雾默抑
