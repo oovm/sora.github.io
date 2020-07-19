@@ -12,7 +12,7 @@ tags = ["ED", "沢井美空"]
 var player = new DogePlayer({
     container: document.getElementById('player'),
     userId: 1001,
-    vcode: '72ae97c957e09516',
+    vcode: '77683f2766986221',
     autoPlay: false
 });
 </script>
@@ -21,7 +21,7 @@ var player = new DogePlayer({
 
 ---
 
-<meting-js server="netease"	type="song"	id="29758107"/>
+<meting-js server="netease"	type="song"	id="28854949"/>
 
 ```lrc
 [00:11.09]吾知多难 明我心田
