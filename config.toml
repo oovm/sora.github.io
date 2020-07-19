@@ -1,17 +1,11 @@
 # The URL the site will be built for
 base_url = "https://github.com/GalAster/sora.github.io"
-
-# Whether to automatically compile all Sass files in the sass directory
+theme = "mikoto"
+description = ""
 compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+slugify-path = true
 highlight_code = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-theme = "zola-theme-mikoto"
-
+highlight_theme = "monokai"
 taxonomies = [
     {name = "categories", rss = true},
     {name = "tags", rss = true},
@@ -22,4 +16,6 @@ taxonomies = [
 author = "Aster"
 favicon = "avatar.jpg"
 github_link = "https://github.com/GalAster/sora.github.io"
+
+aplayer_enable = true
 

@@ -1,0 +1,3 @@
+[submodule "themes/mikoto"]
+	path = themes/mikoto
+	url = https://github.com/GalAster/zola-theme-mikoto.git
