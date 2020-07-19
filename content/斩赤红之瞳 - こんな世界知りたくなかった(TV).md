@@ -6,20 +6,6 @@ categories = ["斩赤红之瞳"]
 tags = ["ED", "沢井美空"]
 +++
 
-<div id="player"></div>
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player'),
-    userId: 1001,
-    vcode: '77683f2766986221',
-    autoPlay: false
-});
-</script>
-
-<!-- more -->
-
----
 
 <meting-js server="netease"	type="song"	id="28854949"/>
 
@@ -44,3 +30,18 @@ var player = new DogePlayer({
 [01:19.95]敢盲目的去踏入哟
 [01:23.17]心里太苦 难无感那个他
 ```
+
+<!-- more -->
+
+---
+
+<div id="player"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player'),
+    userId: 1001,
+    vcode: '77683f2766986221',
+    autoPlay: false
+});
+</script>
