@@ -6,7 +6,16 @@ categories = ["斩赤红之瞳"]
 tags = ["OP", "真山りか"]
 +++
 
-{{ streamable(id="92ok4") }}
+<div id="player"></div>
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player'),
+    userId: 1001,
+    vcode: '72ae97c957e09516',
+    autoPlay: false
+});
+</script>
 
 <!-- more -->
 
