@@ -13,8 +13,18 @@ taxonomies = [
 ]
 
 [extra]
-author = "Aster"
-favicon = "avatar.jpg"
+copyright = true
+author = "无名酱"
+mikoto_title = "空耳创世纪"
+mikoto_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    # {url = "$BASE_URL/series", name = "Series"},
+    {url = "$BASE_URL/about", name = "About"},
+]
+
+favicon = "https://github.com/GalAster/sora.github.io/blob/master/static/avatar.jpg"
 github_link = "https://github.com/GalAster/Soramimi"
 
 aplayer_enable = true
